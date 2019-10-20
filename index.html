@@ -11,14 +11,25 @@
     <div class="container my-5">
         <div class="row col-12 justify-content-center">
             <div class="col-sm-6 col-md-8 input-group">
-                <input type="text" name="todoinput" id="todoinput" placeholder="digite um todo" class="form-control">
+                <input type="text" name="todoinput" id="inptodo" placeholder="digite um todo" class="form-control">
                 <div class="input-group-append">
-                        <button class="btn btn-primary">Adicionar</button>
+                        <button class="btn btn-primary" id="btn">Adicionar</button>
                 </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Renderizando todos adicionados -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-sm-6" id="app">
+                    <ul class="list-group"></ul>
             </div>
         </div>
     </div>
 
+    <!-- função addtodo -->
+    <script src="todos.js"></script>
 
     <!-- Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
